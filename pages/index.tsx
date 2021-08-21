@@ -4,7 +4,7 @@ import ClientOnly from "../components/QlientOnly";
 export default function Home() {
   return (
     <div>
-      <h1>Pokemon list</h1>
+      <h1>Pokedex</h1>
       <ClientOnly>
         <PokemonList />
       </ClientOnly>
